@@ -1,0 +1,61 @@
+<head>
+    <link rel="stylesheet" href="../src/App.css">
+    <style>
+        .spice-container {
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            margin-top: 40px;
+        }
+        .spice-card {
+            background: #fffbe7;
+            border-radius: 12px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+            padding: 24px;
+            width: 260px;
+            text-align: center;
+        }
+        .spice-img {
+            width: 120px;
+            height: 120px;
+            object-fit: cover;
+            border-radius: 8px;
+            margin-bottom: 16px;
+        }
+        .spice-price {
+            font-weight: bold;
+            color: #ff0101;
+            margin-top: 12px;
+            font-size: 1.2em;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 class="center">SPICE KING</h1>
+    <img src="../src/SK.png" id="logo">
+    <p class="center">Våre krydder</p>  
+    <button id="spcbtn" onclick="location.href='Main.html'">Til forsiden</button>
+    <button id="spcbtn" onclick="location.href='kontakt.html'">Kontakt oss</button>
+    
+    <div class="spice-container">
+        <div class="spice-card">
+            <img src="../src/paprika.png" alt="Paprika" class="spice-img">
+            <h2>Paprika</h2>
+            <p>En mildt krydret smak som passer perfekt til gryteretter, kjøtt og grønnsaker.</p>
+            <div class="spice-price">Pris: 39 kr</div>
+        </div>
+        <div class="spice-card">
+            <img src="../src/chili.png" alt="Chili" class="spice-img">
+            <h2>Chili</h2>
+            <p>Sterkt, perfekt til de som liker et ekstre 'kick' i maten.</p>
+            <div class="spice-price">Pris: 49 kr</div>
+        </div>
+        <div class="spice-card">
+            <img src="../src/oregano.png" alt="Oregano" class="spice-img">
+            <h2>Oregano</h2>
+            <p>Perfekt til pizza, pasta og salater.</p>
+            <div class="spice-price">Pris: 29 kr</div>
+        </div>
+    </div>
+</body>
